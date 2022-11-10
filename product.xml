@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<product>Sebastian </product>
+		<manufacturer>Wánjù zhìzào shāng</manufacturer>
+		<cost_per_unit>0.5</cost_per_unit>
+	</record>
+	<record>
+		<product>Floundoodle</product>
+		<manufacturer>Toy Makers </manufacturer>
+		<cost_per_unit>1.5</cost_per_unit>
+	</record>
+	<record>
+		<product>Labra-mermaid</product>
+		<manufacturer>roducent zabawek</manufacturer>
+		<cost_per_unit>0.75</cost_per_unit>
+	</record>
+	<record>
+		<product>Chiwarmaid</product>
+		<manufacturer>fabricante de juguetes</manufacturer>
+		<cost_per_unit>1.25</cost_per_unit>
+	</record>
+</product>

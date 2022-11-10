@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<orders-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<sales-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<record>
 		<order_num>101</order_num>
 		<store_id>walmart</store_id>
@@ -30,4 +30,4 @@
 		<product>3315</product>
 		<quantity>7500</quantity>
 	</record>
-</orders-data>
+</sales-data>
