@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orders-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<order_num>101</order_num>
+		<store_id>walmart</store_id>
+		<product>1105</product>
+		<quantity>10000</quantity>
+	</record>
+	<record>
+		<order_num>102</order_num>
+		<store_id>walmart</store_id>
+		<product>2210</product>
+		<quantity>10000</quantity>
+	</record>
+	<record>
+		<order_num>103</order_num>
+		<store_id>target</store_id>
+		<product>2210</product>
+		<quantity>5500</quantity>
+	</record>
+	<record>
+		<order_num>104</order_num>
+		<store_id>costco</store_id>
+		<product>2210</product>
+		<quantity>7500</quantity>
+	</record>
+	<record>
+		<order_num>105</order_num>
+		<store_id>costco</store_id>
+		<product>3315</product>
+		<quantity>7500</quantity>
+	</record>
+</orders-data>
