@@ -1,0 +1,5 @@
+﻿Order_num,location,destination,carrier,tracking_id
+101,China,Chicago,DHL,9946932
+102,USA,Detroit,UPS,779901
+103,China,London,DHL,9941105
+104,Mexico,New York,FedEx,886214

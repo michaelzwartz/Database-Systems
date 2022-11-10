@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<shipping-info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<order_num>101</order_num>
+		<location>China</location>
+		<destination>Chicago</destination>
+		<carrier>DHL</carrier>
+		<tracking_id>9946932</tracking_id>
+	</record>
+	<record>
+		<order_num>102</order_num>
+		<location>USA</location>
+		<destination>Detroit</destination>
+		<carrier>UPS</carrier>
+		<tracking_id>779901</tracking_id>
+	</record>
+	<record>
+		<order_num>103</order_num>
+		<location>China</location>
+		<destination>London</destination>
+		<carrier>DHL</carrier>
+		<tracking_id>9941105</tracking_id>
+	</record>
+	<record>
+		<order_num>104</order_num>
+		<location>Mexico</location>
+		<destination>New York</destination>
+		<carrier>FedEx</carrier>
+		<tracking_id>886214</tracking_id>
+	</record>
+</shipping-info>
