@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<third-party xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<name>Toy Makers</name>
+		<location>USA</location>
+		<capacity>6000</capacity>
+		<cost_rating>4</cost_rating>
+		<reliability>4</reliability>
+	</record>
+	<record>
+		<name>fabricante de juguetes</name>
+		<location>Mexico</location>
+		<capacity>2500</capacity>
+		<cost_rating>3</cost_rating>
+		<reliability>5</reliability>
+	</record>
+	<record>
+		<name>Wánjù zhìzào shāng</name>
+		<location>China</location>
+		<capacity>10000</capacity>
+		<cost_rating>1</cost_rating>
+		<reliability>2</reliability>
+	</record>
+	<record>
+		<name>producent zabawek</name>
+		<location>Poland</location>
+		<capacity>4500</capacity>
+		<cost_rating>3</cost_rating>
+		<reliability>5</reliability>
+	</record>
+</third-party>
