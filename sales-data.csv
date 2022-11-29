@@ -1,4 +1,4 @@
-order_num,store_id,product,quantity
+﻿order_num,store_id,product,quantity
 101,walmart,1105,10000
 102,walmart,2210,10000
 103,target,2210,5500
