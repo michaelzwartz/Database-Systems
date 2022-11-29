@@ -13,8 +13,7 @@ LOAD DATA LOCAL INFILE '/Users/mtzwa/Documents/Git Hub/Database-Systems/product.
 LOAD DATA LOCAL INFILE '/Users/mtzwa/Documents/Git Hub/Database-Systems/sales-data.csv'
 	INTO TABLE sales_data
 	FIELDS TERMINATED BY ','
-	ENCLOSED BY '"'
-	LINES TERMINATED BY '\n'    
+	LINES TERMINATED BY '\n'
 	IGNORE 1 ROWS;
 LOAD DATA LOCAL INFILE '/Users/mtzwa/Documents/Git Hub/Database-Systems/shipping-info.csv'
 	INTO TABLE shipping_info

@@ -29,6 +29,12 @@ UPDATE sales_data
 DELETE FROM sales_data WHERE order_num = 106;
 
 --#5 Auto-increment
-ALTER TABLE sales_data DROP COLUMN order_num 
-ALTER TABLE sales_data ADD order_id int NOT NULL AUTO_INCREMENT primary key;
-ALTER TABLE sales_data AUTO_INCREMENT = 100;
+ALTER TABLE sales_data MODIFY order_num INTEGER NOT NULL AUTO_INCREMENT;
+INSERT INTO sales_data(store_id, product, quantity, order_status)
+    VALUES('Amazon', 1105, 1500, 'preparing');
+
+--#6 Default command
+ALTER TABLE sales_data
+    ALTER order_status SET DEFAULT 'pending';
+INSERT INTO sales_data(store_id, product, quantity)
+    VALUES('Amazon', 2210, 5000);

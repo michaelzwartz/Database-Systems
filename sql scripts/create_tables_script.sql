@@ -8,8 +8,8 @@ CREATE TABLE IF NOT EXISTS `timmzatlantic`.`product`
     `cost_per_unit` decimal(3,2)) 
     DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;;
 CREATE TABLE IF NOT EXISTS `timmzatlantic`.`sales_data` 
-    (`order_num` int, `store_id` varchar(255), `product` int, 
-    `quantity` varchar(255)) 
+    (`order_num` int, `store_id` varchar(10), `product` int, 
+    `quantity` int, PRIMARY KEY (order_num)) 
     DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;;
 CREATE TABLE IF NOT EXISTS `timmzatlantic`.`third_party` 
     (`Name` varchar(22), `Location` varchar(6), 
