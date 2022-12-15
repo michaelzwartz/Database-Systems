@@ -23,6 +23,9 @@ sales_data_cursor = cm_connection.cursor()
 sales_data_query = ("SELECT * FROM sales_data")
 sales_data_cursor.execute(sales_data_query)
 
+for row in sales_data_cursor.fetchall():
+    print(row)
+
 sales_data_cursor.close()
 
 store_id = "walmart"
@@ -39,16 +42,23 @@ try:
     sales_data_cursor = cm_connection.cursor()
     sales_data_cursor.execute(sales_data_query, sales_data)
     cm_connection.commit()
+    print()
     print("Added sale")
-    
-    for row in sales_data_cursor.fetchall():
-        print(row)
-    
+    print()
     sales_data_cursor.close()
     
 except mysql.connector.Error as err: 
     print("\nSale not added")
     print("Error: {}".format(err))
+
+sales_data_cursor = cm_connection.cursor()
+sales_data_query = ("SELECT * FROM sales_data")
+sales_data_cursor.execute(sales_data_query)
+
+for row in sales_data_cursor.fetchall():
+    print(row)
+
+sales_data_cursor.close()
 
 #Close connection
 cm_connection.close() 
