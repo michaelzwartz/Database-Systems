@@ -29,5 +29,34 @@ for row in sales_data_cursor.fetchall():
 sales_data_cursor.close()
 
 
+##Part II: Insert row and print new table
+#store_id = "walmart"
+#product = 3315
+#quantity = 10000
+
+#sales_data_query = ("INSERT INTO sales_data"
+#                    "(store_id, product, quantity)"
+#                    "VALUES(%s, %s, %s)")
+
+#sales_data = (store_id, product, quantity)
+
+#try: 
+#    sales_data_cursor = cm_connection.cursor()
+#    sales_data_cursor.execute(sales_data_query, sales_data)
+#    cm_connection.commit()
+#    print("Added sale")
+    
+#    for row in sales_data_cursor.fetchall():
+#        print(row)
+    
+#    sales_data_cursor.close()
+    
+#except mysql.connector.Error as err: 
+#    print("\nSale not added")
+#    print("Error: {}".format(err))
+
 #Close connection 
+
+##Part III: Delete Row
+
 cm_connection.close() 
